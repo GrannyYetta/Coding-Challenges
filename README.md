@@ -19,7 +19,7 @@ function myFunction () {
 - Each level is sorted into folders where each challenge is a subfolder according to their difficulty ( e.g. '8kyu'/'7kyu'/'6kyu'... for Codewars)
 - Each challenge is in a separate file which includes challenge name, descritpiton and solution
 
-## Why this repository
+## The Purpose of this repository
 
 This repo reflects my commitment to regular practice, improving problem-solving skills, and tracking my progress over time.
 
