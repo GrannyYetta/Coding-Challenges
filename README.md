@@ -4,13 +4,7 @@ Welcome to the coding challenges repository! Here I post solutions to a variety 
 
 ## Coding Language
 
-Javascript
-
-```js
-function myFunction () {
-   return true;
-}
-```
+![Javascript](https://readmebadge.vercel.app/badges/javascript.svg)
 
 
 ## What is in this repository
