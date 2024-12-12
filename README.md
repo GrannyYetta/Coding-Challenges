@@ -2,7 +2,7 @@
 
 Welcome to the coding challenges repository! Here I post solutions to a variety of coding challenges that I tackle daily as part of my ongoing learning journey.
 
-## Coding Language
+## Coding Languages
 
 ![Javascript](https://readmebadge.vercel.app/badges/javascript.svg)
 
