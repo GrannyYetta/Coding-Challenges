@@ -4,7 +4,7 @@ Welcome to the coding challenges repository! Here I post solutions to a variety 
 
 ## Coding Languages
 
-![Javascript](https://readmebadge.vercel.app/badges/javascript.svg) ![Python](https://readmebadge.vercel.app/badges/python.svg)
+![Javascript]([https://readmebadge.vercel.app/badges/javascript.svg](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)) ![Python]([https://readmebadge.vercel.app/badges/python.svg](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white))
 
 
 ## What is in this repository
