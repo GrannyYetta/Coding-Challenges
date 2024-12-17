@@ -51,8 +51,8 @@ where,
 
     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/max
 
-     Math.min() --> returns the smallest of the numbers given as input parameters (or Infinity if there are no parameters)
+    Math.min() --> returns the smallest of the numbers given as input parameters (or Infinity if there are no parameters)
 
-     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/min
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/min
 
 */
