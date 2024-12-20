@@ -18,9 +18,10 @@ The start number will always be smaller than the end number. Both numbers can be
 
 function dontGiveMeFive(start, end) {
 	let count = 0;
+    const re = /5/
 
 	for (let i = start; i <= end; i++) {
-		if (!/5/.test(i)) {
+		if (!re.test(i)) {
 			count++;
 		}
 	}
