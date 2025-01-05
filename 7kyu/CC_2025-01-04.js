@@ -35,3 +35,51 @@ function solution(digits) {
 	}
 	return count;
 }
+
+// ALTERNATIVE
+
+const solution = (digits) =>
+	digits
+		.split("")
+		.reduce((prev, _, index) => Math.max(prev, digits.slice(index + 5)), 0);
+
+
+
+/*
+
+NOTES:
+
+This is really cool: someone broke down the solution-finding steps.
+
+"questions:
+  • what is the minimum number of digits it can have?
+
+considerations:
+  • Look out for BigO notation
+
+approaches
+  • use linear search
+
+sudo code
+  return digits if less or equal than 5
+  save first 5 digits
+  loop with i starting as 0
+    get digit from i to i + 4
+    is current digits greater than previous?
+      replace greatest number with current digit
+    else, increment i and keep looking
+    
+    function solution(digits){
+  if (digits.length <= 5) return digits;
+  
+  let largestFiveDigitNumber = digits.slice(0, 5);
+  for (let i = 5; i < digits.length; i++) {
+    let currentFiveDigitNumber = digits.slice(i, i + 5);
+    if (currentFiveDigitNumber > largestFiveDigitNumber) {
+      largestFiveDigitNumber = currentFiveDigitNumber; 
+    }
+  }
+  return Number(largestFiveDigitNumber);
+}"
+
+*/
