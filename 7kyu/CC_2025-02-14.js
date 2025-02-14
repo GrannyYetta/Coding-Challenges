@@ -11,8 +11,6 @@ Examples
 -456 -> -654
 1000 ->    1
 
-
-
 */
 
 function reverseNumber(n) {
