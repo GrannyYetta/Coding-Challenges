@@ -18,8 +18,6 @@ For example: (Input --> Output)
 3 --> 6
 -10 --> 0
 
-
-
 */
 
 
