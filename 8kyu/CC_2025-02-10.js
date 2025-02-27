@@ -26,7 +26,7 @@ NOTES:
     - indexEnd = index of the first character *to be excluded* from the returned substring
 - string method (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice)
 - but is also an array method (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice)
-- 
+
 
 
 */
