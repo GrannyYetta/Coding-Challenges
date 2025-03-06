@@ -41,9 +41,15 @@ RegExp.prototype.test()
 - executes a search with this regular expression for a match between a regular expression and a specified string
 - test() can be used to iterate over multiple matches in a string of text (with capture groups)
 - Syntax: test(str)
-- The ^ character matches the beginning of input
-- The $ matches the end of input
-- The | indicates "either... or"
+- / and /: These are the delimiters that mark the start and end of the regex
+- ^: character matches the beginning of input
+- $: matches the end of input
+- |: indicates "or"
+- ?: Makes the entire group optional 
+- -0: Matches a hyphen followed by a zero
+- -*: Matches zero or more hyphens
+- [0-9]: Matches any single digit from 0 to 9
+- {9}: Ensures that exactly 9 repetitions of the grouped pattern occur (this means there must be 9 digits after the leading 7)
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Cheatsheet
 
 */
