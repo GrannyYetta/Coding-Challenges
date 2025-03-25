@@ -79,7 +79,7 @@ Array.prototype.forEach()
 
 - instances executes a provided function once for each array element
 - Syntax: forEach(callbackFn) or forEach(callbackFn, thisArg)
-- 
+-  helpful: https://medium.com/@y.h.chen2016/js-tip-how-to-split-a-integer-into-individual-digits-ddb20d5ad434
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
 
 */
