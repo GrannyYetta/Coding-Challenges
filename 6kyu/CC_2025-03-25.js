@@ -10,14 +10,20 @@ Examples (input --> output):
 
 
 */
+String.prototype.camelCase = function () {
+	if (this.trim() === "") {
+		return "";
+	}
 
-const toCamelCase = (str) => {
-    const words = str.split(' ')
-    const camelCaseWords = words.map(word => {
-      return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase
-    })
-    return camelCaseWords.join('')
-    
-  }
+	return this.trim()
+		.split(" ")
+		.map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+		.join("");
+};
+
+// ALTERNATIVE SOLUTION
 
 
+String.prototype.camelCase = function () {
+    return this.trim().replace(/(?:^|\s)(\w)/g, (_, $1) => $1.toUpperCase());
+  };
