@@ -51,6 +51,12 @@ function partsSums(ls) {
 
 // ALTERNATIVE SOLUTION
 
+function partsSums(ls) {
+    ls.unshift(0);
+    let sum = ls.reduce((p, c) => p + c, 0);
+    return ls.map(v => sum = sum - v);
+}
+
 /*
 
 NOTES:
@@ -60,6 +66,8 @@ The function needs to calculate the sum of all elements in the list, then progre
 from the beginning and recalculate the sum.
 Input: An array of numbers
 Output: An array of sums, where each sum represents the total of the remaining elements
+
+Instead of recalculating the sum each time, can we use the previous sum to calculate the next one?
 
 
 PSEUDOCODE
