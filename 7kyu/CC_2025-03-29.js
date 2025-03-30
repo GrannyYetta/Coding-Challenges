@@ -28,10 +28,3 @@ function circleArea(radius) {
   
   }
 
-// ALTERNATIVE SOLUTION
-
-/*
-
-NOTES:
-
-*/

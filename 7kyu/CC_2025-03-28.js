@@ -20,12 +20,3 @@ function sumEvenNumbers(input) {
 return input.filter((i) => i % 2 === 0).reduce((prev, curr) => prev + curr)
  
 }
-
-
-// ALTERNATIVE SOLUTION
-
-/*
-
-NOTES:
-
-*/
