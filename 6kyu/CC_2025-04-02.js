@@ -32,21 +32,21 @@ function sortByBit(arr) {
 		return (number.toString(2).match(/1/g) || []).length;
 	};
 
-	const compare = (a, b) => {
-		let bitCountA = countBits(a);
-		let bitCountB = countBits(b);
-
-		if (bitCountA < bitCountB) {
-			return -1;
-		} else if (bitCountA > bitCountB) {
-			return 1;
-		} else {
-			return a - b;
-		}
-	};
-	arr.sort(compare);
+	arr.sort((a, b) => {
+		const bitCountA = countBits(a);
+		const bitCountB = countBits(b);
+		return bitCountA - bitCountB || a - b;
+	});
 	return arr;
 }
+
+// ALTERNATIVE SOLUTION
+
+const sortByBit = (arr) =>
+	arr.sort(
+		(a, b) =>
+			a.toString(2).replace(/0/g, "") - b.toString(2).replace(/0/g, "") || a - b
+	);
 
 /*
 
