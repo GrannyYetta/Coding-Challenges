@@ -52,6 +52,19 @@ const sortByBit = (arr) =>
 
 NOTES:
 
+Array.prototype.sort()
+
+- sorts the elements of an array in place
+- returns the reference to the same array, now sorted
+- the default sort order is ascending
+    - built upon converting the elements into strings, 
+    - then comparing their sequence of UTF-code unit values
+- Syntax: sort(compareFn)
+
+
+
+
+
 Pseudocode
 
 FUNCTION sortByBitCount(array):
