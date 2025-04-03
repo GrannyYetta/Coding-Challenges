@@ -12,19 +12,23 @@ Examples
 
 */
 
+function modifiedSum(a, n) {
+	let result = 0;
+	let sum = a.reduce((acc, curr) => {
+		return acc + curr;
+	}, 0);
+
+	for (let i = 0; i < a.length; i++) {
+		result += a[i] ** n;
+	}
+
+	return result - sum;
+}
+// ALTERNATIVE SOLUTION
 
 function modifiedSum(a, n) {
-    let result = 0
-    let sum = a.reduce((acc, curr) => {return acc + curr}, 0)
-    
-    for (let i = 0 ; i < a.length; i++) {
-      result += a[i]**n
-    }
-      
-      return result - sum
-    
-    }
-// ALTERNATIVE SOLUTION
+	return a.reduce((s, c) => s + Math.pow(c, n) - c, 0);
+}
 
 /*
 
