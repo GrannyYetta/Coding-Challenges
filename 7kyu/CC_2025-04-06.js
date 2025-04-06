@@ -49,6 +49,20 @@ function greetDevelopers(list) {
 
 // ALTERNATIVE SOLUTION
 
+function greetDevelopers(list) {
+    list.forEach(function(developer) {
+      developer.greeting = `Hi ${developer.firstName}, what do you like the most about ${developer.language}?`;
+    });
+    
+    return list;
+  }
+
+  // ALTERNATIVE SOLUTION
+
+  const greetDevelopers = list => list.map(
+    dev => ({...dev, greeting: `Hi ${dev.firstName}, what do you like the most about ${dev.language}?`})
+  );
+
 /*
 
 NOTES:
