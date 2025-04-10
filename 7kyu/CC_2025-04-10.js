@@ -14,20 +14,21 @@ XO("zzoo") => false
 
 */
 
-const  XO = str => {
-    let amountOfX = str.match(/x/gi)
-      let amountOfO = str.match(/o/gi)
-      
-      return (amountOfX && amountOfX.length) == (amountOfO && amountOfO.length)
-      
-  }
+const XO = (str) => {
+	let amountOfX = str.match(/x/gi);
+	let amountOfO = str.match(/o/gi);
+
+	return (amountOfX && amountOfX.length) == (amountOfO && amountOfO.length);
+};
 
 // ALTERNATIVE SOLUTION
 
-const XO = str => {
-    str = str.toLowerCase().split('');
-    return str.filter(x => x === 'x').length === str.filter(x => x === 'o').length;
-  }
+function xo(str) {
+	str = str.toLowerCase().split("");
+	return (
+		str.filter((x) => x === "x").length === str.filter((x) => x === "o").length
+	);
+}
 
 /*
 
