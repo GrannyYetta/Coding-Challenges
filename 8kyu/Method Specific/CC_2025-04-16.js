@@ -25,3 +25,12 @@ function abbrevName(name){
     return firstInitial + "." + secondInitial
     
     }
+
+
+// ALTERNATIVE SOLUTION
+
+function abbrevName(name){
+
+    return name.split(' ').map(i => i[0].toUpperCase()).join('.')
+
+}
