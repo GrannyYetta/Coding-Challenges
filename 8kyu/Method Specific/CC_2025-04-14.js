@@ -10,8 +10,6 @@ function makeUpperCase(str) {
 	return str.toUpperCase();
 }
 
-// ALTERNATIVE SOLUTION
-
 /*
 
 NOTES:
