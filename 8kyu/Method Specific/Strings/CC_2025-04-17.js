@@ -15,10 +15,3 @@ function stringToArray(string){
     return string.split(' ');
   }
 
-// ALTERNATIVE SOLUTION
-
-/*
-
-NOTES:
-
-*/
