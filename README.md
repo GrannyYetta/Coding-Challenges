@@ -17,3 +17,6 @@ Welcome to the coding challenges repository! Here I post solutions to a variety 
 
 This repo reflects my commitment to regular practice, improving problem-solving skills, and tracking my progress over time.
 
+## Updates
+
+I took a break after I started new job, but I am back. If you want to see what I have been up to, I have been delving into data-type specific methods, so I went back to kyu8 and building up from there.
