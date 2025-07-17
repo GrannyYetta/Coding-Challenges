@@ -19,4 +19,4 @@ This repo reflects my commitment to regular practice, improving problem-solving 
 
 ## Updates
 
-I took a break after I started new job, but I am back. If you want to see what I have been up to, I have been delving into data-type specific methods, so I went back to kyu8 and building up from there.
+I took a break after I started new job, but I am back! If you want to see what I have been up to, I have been delving into data-type specific methods, so I went back to kyu8 and building up from there.
