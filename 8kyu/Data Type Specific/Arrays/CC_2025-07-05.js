@@ -29,4 +29,8 @@ function findMultiples(int, limit) {
 
 NOTES:
 
+Array.prototype.fill()
+- changes all elements within a range of indices in an array to a static value
+- returns the modified array
+
 */
