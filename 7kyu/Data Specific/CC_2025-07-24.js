@@ -28,7 +28,7 @@ const binaryArrayToNumber = arr => {
 
 // ALTERNATIVE SOLUTION
 
-const binaryArrayToNumber = arr => {
+const binaryArrayToNumbers = arr => {
   return arr.reduce((total, cur) => (total = total * 2 + cur), 0);
 }
 
